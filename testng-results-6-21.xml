@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T09:09:26 UTC" name=" BAS UI  Enhanced flow" finished-at="2023-06-21T09:09:34 UTC" duration-ms="8449">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T09:09:26 UTC" name="Enhanced Flow test cases for LTL and UPS" finished-at="2023-06-21T09:09:34 UTC" duration-ms="8449">
+      <class name="com.wwex.test.bas.ltl.LTLBookAShipment">
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:23 UTC" name="setData" finished-at="2023-06-21T09:09:24 UTC" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="setupOverallReport()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:24 UTC" name="setupOverallReport" finished-at="2023-06-21T09:09:24 UTC" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOverallReport -->
+        <test-method is-config="true" signature="secretsManagerTest()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:24 UTC" name="secretsManagerTest" finished-at="2023-06-21T09:09:26 UTC" depends-on-methods="com.wwex.test.framework.Report.setData, com.wwex.test.framework.Report.setupOverallReport" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secretsManagerTest -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:26 UTC" name="launchApplication" finished-at="2023-06-21T09:09:34 UTC" duration-ms="7667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:26 UTC" name="launchApplication" finished-at="2023-06-21T09:09:34 UTC" duration-ms="7871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:26 UTC" name="launchApplication" finished-at="2023-06-21T09:09:34 UTC" duration-ms="7796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:26 UTC" name="launchApplication" finished-at="2023-06-21T09:09:34 UTC" duration-ms="7704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="test2379" finished-at="2023-06-21T09:09:34 UTC" duration-ms="42" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.wwex.test.bas.ltl.LTLBookAShipment.test2379(LTLBookAShipment.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="test">
+              <![CDATA[SQQ-2379]]>
+            </attribute> <!-- test -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- test2379 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="tearDown" finished-at="2023-06-21T09:09:34 UTC" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2379 status=FAILURE method=LTLBookAShipment.test2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ltlBookAShipment(java.util.HashMap)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="ltlBookAShipment" data-provider="ltlBookAShipment" finished-at="2023-06-21T09:09:34 UTC" duration-ms="121" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pieceType=Box, daysFromNow=1, latestHr=12, unitNum=1, destSaveAddress=No, hazmat0=false, type=Box, destCompany=Ltl Smokie One, Name=301-BAS UI - LTL Domestic - Book Shipment- 1HU 1 Commodity, ID=301, orgSaveAddress=No, destContact=Andrew, totWeight=55, fromAddressBook=NA, height=32, nmfcCode=49265, destCity=DALLAS, earliestMin=00, orgCountry=United States, weight=55, destAddress1=6061 Village Bend Dr, latestMin=00, toAddressBook=NA, commodityType=Single Commodity, #OfPieces=5, orgCompany=Kity, latestAMPM=PM, destState=Texas, earliestAMPM=AM, orgState=Illinois, Group=Regression, Description=BAS UI - LTL Domestic - Book Shipment:  1HU, 1 commodity no Hazmat (enter only required fields in HU & commodity), stackable Yes, shipDate as next business day, no accessorials, carrier SAIA, no pickup (self-scheduled), orgContact=Kite, commodityDescription=it's not heavy, orgCity=PROSPECT HEIGHTS, units=1, destZip=75206, #CommoditiesHU1=1, #handlingUnits=1, orgAddress1=1501 S WOLF RD, class=55, orgAddress2=Unit G, stackable=Yes, destPhone=9195945643, length=20, destEmail=julie@wwex.com, orgPhone=7035596345, handlingCharge=true, destCountry=United States, carrier=SAIA, orgEmail=keith@wwex.com, totalWeight=500, width=13, carrierTracker=NA, orgZip=60070, earliestHr=9, username=funregressionadmin1.dcieg2y7@mailosaur.io}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at org.testng.Assert.assertEquals(Assert.java:1076)
+at com.wwex.test.bas.ltl.LTLBookAShipment.ltlBookAShipment(LTLBookAShipment.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ltlBookAShipment -->
+        <test-method signature="test()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="test" finished-at="2023-06-21T09:09:34 UTC" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at com.wwex.test.bas.ltl.LTLBookAShipment.test(LTLBookAShipment.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+          <attributes>
+            <attribute name="test">
+              <![CDATA[SQQ-2286]]>
+            </attribute> <!-- test -->
+            <attribute name="labels">
+              <![CDATA[]]>
+            </attribute> <!-- labels -->
+          </attributes>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="tearDown" finished-at="2023-06-21T09:09:34 UTC" duration-ms="565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=FAILURE method=LTLBookAShipment.test()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="sqq2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="sqq2379" finished-at="2023-06-21T09:09:34 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqq2379 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="tearDown" finished-at="2023-06-21T09:09:34 UTC" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sqq2379 status=SUCCESS method=LTLBookAShipment.sqq2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="tearDown" finished-at="2023-06-21T09:09:34 UTC" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ltlBookAShipment status=FAILURE method=LTLBookAShipment.ltlBookAShipment(java.util.HashMap)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="reportTestResult(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="reportTestResult" finished-at="2023-06-21T09:09:34 UTC" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2379 status=FAILURE method=LTLBookAShipment.test2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+        <test-method is-config="true" signature="reportTestResult(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="reportTestResult" finished-at="2023-06-21T09:09:34 UTC" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=FAILURE method=LTLBookAShipment.test()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+        <test-method is-config="true" signature="reportTestResult(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="reportTestResult" finished-at="2023-06-21T09:09:34 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ltlBookAShipment status=FAILURE method=LTLBookAShipment.ltlBookAShipment(java.util.HashMap)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+        <test-method is-config="true" signature="reportTestResult(org.testng.ITestResult)[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="reportTestResult" finished-at="2023-06-21T09:09:34 UTC" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sqq2379 status=SUCCESS method=LTLBookAShipment.sqq2379()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+        <test-method is-config="true" signature="closeOverallReport()[pri:0, instance:com.wwex.test.bas.ltl.LTLBookAShipment@65a15628]" started-at="2023-06-21T09:09:34 UTC" name="closeOverallReport" finished-at="2023-06-21T09:09:35 UTC" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOverallReport -->
+      </class> <!-- com.wwex.test.bas.ltl.LTLBookAShipment -->
+    </test> <!-- Enhanced Flow test cases for LTL and UPS -->
+  </suite> <!--  BAS UI  Enhanced flow -->
+</testng-results>
